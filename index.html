@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save emails in txt document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Fill in the form.</h1>
+        <p>When you submit the form your info will be saved in a file named mails.txt</p>
+        <div id="emailForm">
+            <p id="checkForm"><p>
+            <form action="/form" method="post">
+                <label>Name</label>
+                <input id="userName" type="text" name="name" required/>
+                <label>Email</label>
+                <input id="userEmail" type="email" name="email" required/>              
+            </form>
+        </div>
+        <button id="userSubmit">Submit</button>
+    </main>
+</body>
+</html>
